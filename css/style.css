@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&display=swap');
+
+body{
+	font-family: 'Arsenal', sans-serif;
+	font-size: 14px;
+	color: #fff;
+}
+
+.fondo{	
+background: linear-gradient(90deg, rgba(0,0,89,1) 0%, rgba(63,3,93,1) 100%);
+}
+
+header{
+	padding: 40px 0;
+	color: #fff;
+}
+
+#infinito{
+	background-color: #000;
+	padding: 60px 0;
+}
+
+#infinito h1{
+	font-family: 'Arsenal', sans-serif;
+	color: #66C6DF;
+	text-align: center;
+	font-weight: 700;
+	font-size: 60px;
+}
+
+#infinito h3{
+	font-family: 'Arsenal', sans-serif;
+	font-size: 20px;
+	color: #66C6DF;
+	font-weight: 500;
+}
+
+#infinito h6{
+	text-align: center;
+	margin-bottom: 40px;	
+}
+
+#infinito p{
+	letter-spacing: 1px;	
+}
+
+.img-fluid{
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+footer{
+	background-color: #040423;
+	color: #fff;
+	padding: 30px 30px;
+}
+
+.centered{
+	text-align: right;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+footer h6{
+	color: #989898;
+	font-size: 14px;
+}
+
+footer h5{
+	font-size: 24px;
+}
+
+.pad{
+	padding: 3% 0;
+}
+
+.marrow{
+	margin-bottom: 30px;
+}
+
+.btn-order{
+	font-family: 'Arsenal', sans-serif;
+	background-color: #a885d8;
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border-radius: 100px;
+	/*width: 120px;
+	height: 40px;
+	line-height: 25px;*/
+	padding: 10px 20px;
+	align-items: center;
+	box-shadow: 2px 2px 15px 3px #a885d8;
+}
+
+.btn-order:hover{
+	font-family: 'Arsenal', sans-serif;
+	background-color: #fff;
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border-radius: 100px;
+	/*width: 120px;
+	height: 40px;
+	line-height: 25px;*/
+	padding: 10px 20px;
+	align-items: center;
+	box-shadow: 2px 2px 15px 3px #fff;
+}
+
+.btn-order-select{
+	font-family: 'Arsenal', sans-serif;
+	background-color: #EFA256;
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border-radius: 100px;
+	/*width: 120px;
+	height: 40px;
+	line-height: 25px;*/
+	padding: 10px 20px;
+	align-items: center;
+	box-shadow: 2px 2px 15px 3px #EFA256;
+}
+
+.btn-order-select:hover{
+	font-family: 'Arsenal', sans-serif;
+	background-color: #fff;
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border-radius: 100px;
+	/*width: 120px;
+	height: 40px;
+	line-height: 25px;*/
+	padding: 10px 20px;
+	align-items: center;
+	box-shadow: 2px 2px 15px 3px #fff;
+}
+
+#first{
+	padding: 60px;
+	text-align: center;
+}
+
+#first p{
+	font-size: 19px;
+	text-align: left;
+}
+
+#first h3{
+	text-align: left;
+	font-weight: 900;
+	font-size: 32px;
+	text-transform: uppercase;
+	padding-top: 30px;
+}
+
+#products{
+	padding: 40px;
+}
+
+.card-product{
+	border-radius: 100px 0px;
+	color: #000;
+	box-shadow: 2px 2px 15px 3px #66C6DF;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 60px;
+}
+
+.card-product h1{
+	font-weight: 700;
+	font-size: 30px; 
+	text-transform: uppercase;
+	margin: 10px;
+	color: #66C6DF;
+}
+
+.card-product h2{
+	font-weight: 700;
+	font-size: 30px; 
+	text-transform: uppercase;
+	margin: 10px;
+}
+
+.card-product p{
+	margin: 10px;
+	font-size: 20px;
+}
+
+.carousel-caption{
+	font-size: 70px;
+	color: #FFF;
+	text-align: right;
+	align-content: right;
+}
+
+.capa-relative{
+	position: relative;
+	overflow: hidden;
+}
+
+.capa-absolute{
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	overflow: hidden;
+}
+
+.capa-relative h5{
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.capa-overlay{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.45);
+	overflow: hidden;
+}
+
+.capa-overlay-nosotros{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.45);
+	overflow: hidden;
+	border-radius: 100px;	
+}
+
+.buzz{
+	border-radius: 100px;	
+}
+
+.parrafo{
+	margin-top: 50px;
+}
+
+.btn-cards{
+	font-family: 'Arsenal', sans-serif;
+	background-color: #a6df65;
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border-radius: 100px;
+	/*width: 100px;
+	height: 40px;
+	line-height: 25px;*/
+	padding: 5px 10px;
+	align-items: center;
+	margin: 10px;
+	margin-left: 13px;
+	box-shadow: 2px 2px 15px 3px #8aaf5a;
+}
+
+.btn-cards:hover{
+	font-family: 'Arsenal', sans-serif;
+	background-color: #EFA256;
+	text-transform: uppercase;
+	color: #FFF;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border-radius: 100px;
+	/*width: 100px;
+	height: 40px;
+	line-height: 25px;*/
+	padding: 5px 10px;
+	align-items: center;
+	margin: 10px;
+	margin-left: 13px;
+	box-shadow: 2px 2px 15px 3px #EFA256;
+}
+
+#option{
+	padding: 40px;
+}
+
+.card-option{
+	border-radius: 100px 0px;
+	color: #000;
+	box-shadow: 2px 2px 15px 3px #fff;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 60px;
+}
+
+.card-option h1{
+	font-size: 40px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	margin: 20px 10px;
+	color: #EFA256;
+}
+
+.card-option h2{
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 20px 10px;
+}
+
+.card-option p{
+	font-size: 24px;
+	margin: 20px 10px;
+}
+
+.card-carrito{
+	border-radius: 100px 0px 50px 100px;
+	color: #000;
+	background-color: #fff;
+	box-shadow: 2px 2px 15px 3px #fff;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 60px;
+	text-align: center;
+	padding: 20px;
+}
+
+.card-carrito h3{
+	font-size: 50px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #a885d8;
+}
+
+.card-carrito p{
+	font-size: 25px;
+	font-weight: 500;
+	color: #000;
+}
+
+.card-carrito h4{
+	font-size: 30px;
+	font-weight: 700;
+	color: #000;
+}
+
+.card-carrito article a{
+	font-size: 30px;
+	font-weight: 700;
+	color: #EFA256;
+}
+
+.card-carrito article a:hover{
+	font-size: 30px;
+	font-weight: 700;
+	color: #a885d8;
+}
+
+.card-carrito h5{
+	font-size: 30px;
+	font-weight: 700;
+	color: #EFA256;
+}
+
+.card-carrito2{
+	border-radius: 0px 100px 100px 0px;
+	color: #000;
+	background-color: #fff;
+	box-shadow: 2px 2px 15px 3px #fff;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 60px;
+	text-align: left;
+	padding: 60px;
+}
+
+.card-carrito2 h3{
+	font-size: 30px;
+	font-weight: 600;
+	color: #000;
+}
+
+.btn-secondary{
+	width: 150px;
+	margin-right: 100px;
+	border-radius: 100px 100px;
+	background-color: #a885d8;
+	margin-bottom: 20px;
+}
+
+#other{
+	padding: 40px;
+}
+
+.pad{
+	font-weight: 900;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+}
+
+@media (max-width:800px){
+	.btn-cards{
+		font-size: 8px;
+	}
+}
